@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.slide {
+    height: 600px;
+    padding: 40px;
+    background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.title-slide {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+    color: white;
+}
+
+.header {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+}
+
+.title-slide .header {
+    font-size: 48px;
+    color: white;
+    border: none;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.image-placeholder {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.common-image {
+    object-fit: contain;
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+    padding-left: 24px;
+    position: relative;
+}
+
+li:before {
+    content: "•";
+    color: #4a90e2;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #666;
+}
+</style>
+</head>
+<body>
+
+<div class="slide title-slide">
+    <h1 class="header">E-commerce Mobile App</h1>
+    <p style="font-size: 24px">Single Product Experience Design</p>
+    <div class="footer">1</div>
+</div>
+
+<div class="slide">
+    <h2 class="header">Home Screen</h2>
+    <div class="content">
+        <div class="text-content">
+            <ul>
+                <li>Minimalist design with focus on product</li>
+                <li>Hero product image prominence</li>
+                <li>Quick access navigation</li>
+                <li>Featured product carousel</li>
+                <li>Special offers section</li>
+            </ul>
+        </div>
+        <div class="image-placeholder">
+            <img src="Home.png" alt="Home Screen Layout" class="common-image" />
+        </div>
+    </div>
+    <div class="footer">2</div>
+</div>
+
+<div class="slide">
+    <h2 class="header">Product Details</h2>
+    <div class="content">
+        <div class="text-content">
+            <ul>
+                <li>High-quality image gallery</li>
+                <li>Product specifications</li>
+                <li>Color/size variants</li>
+                <li>Price and availability</li>
+                <li>Customer reviews</li>
+                <li>Related items</li>
+            </ul>
+        </div>
+        <div class="image-placeholder">
+            <img src="Product Details.png" alt="Product Details Layout" class="common-image" />
+        </div>
+    </div>
+    <div class="footer">3</div>
+</div>
+
+<div class="slide">
+    <h2 class="header">Shopping Cart</h2>
+    <div class="content">
+        <div class="text-content">
+            <ul>
+                <li>Product summary</li>
+                <li>Quantity controls</li>
+                <li>Price breakdown</li>
+                <li>Shipping options (Cash on Delivery or home delivery)</li>
+                <li>Promo code input</li>
+                <li>Checkout button</li>
+            </ul>
+        </div>
+        <div class="image-placeholder">
+            <img src="Cart.png" alt="Shopping Cart Layout" class="common-image" />
+        </div>
+    </div>
+    <div class="footer">4</div>
+</div>
+
+<div class="slide">
+    <h2 class="header">Checkout Process</h2>
+    <div class="content">
+        <div class="text-content">
+            <ul>
+                <li>Shipping address input</li>
+                <li>Multiple payment methods</li>
+                <li>Order summary</li>
+                <li>Delivery options</li>
+                <li>Security verification</li>
+                <li>Order confirmation</li>
+            </ul>
+        </div>
+        <div class="image-placeholder">
+            <img src="Checkout.png" alt="Checkout Process Layout" class="common-image" />
+        </div>
+    </div>
+    <div class="footer">5</div>
+</div>
+
+<!-- <div class="slide">
+    <h2 class="header">Key Features</h2>
+    <div class="content">
+        <div class="text-content">
+            <ul>
+                <li>One-click purchase</li>
+                <li>Face ID/Touch ID integration</li>
+                <li>Real-time inventory updates</li>
+                <li>Push notifications</li>
+                <li>Order tracking</li>
+                <li>Easy returns process</li>
+            </ul>
+        </div>
+        <div class="image-placeholder">
+            <img src="https://via.placeholder.com/400x300.png?text=Key+Features" alt="Key Features Overview" class="common-image" />
+        </div>
+    </div>
+    <div class="footer">6</div>
+</div> -->
+
+<div class="slide">
+    <h2 class="header">Analytics & Support</h2>
+    <div class="content">
+        <div class="text-content">
+            <ul>
+                <li>Purchase funnel analysis</li>
+                <li>24/7 customer service</li>
+                <li>Live chat integration</li>
+                <li>Performance metrics</li>
+                <li>A/B testing capability</li>
+            </ul>
+        </div>
+        <div class="image-placeholder">
+            <img src="support.png" alt="Analytics Overview" class="common-image" />
+        </div>
+    </div>
+    <div class="footer">7</div>
+</div>
+
+<div class="slide">
+    <h2 class="header">Delivery Tracking</h2>
+    <div class="content">
+        <div class="text-content">
+            <ul>
+                <li>Real-time order status updates</li>
+                <li>Estimated delivery time</li>
+                <li>Push notifications for delivery stages</li>
+                <li>Map integration for live tracking</li>
+                <li>Contact delivery personnel option</li>
+            </ul>
+        </div>
+        <div class="image-placeholder">
+            <img src="track.png" alt="Delivery Tracking Layout" class="common-image" />
+        </div>
+    </div>
+    <div class="footer">8</div>
+</div>
+
+<div class="slide">
+    <h2 class="header">Backend & API Communication</h2>
+    <div class="content">
+        <div class="text-content">
+            <p>
+                This app's backend is powered by <strong>WordPress WooCommerce</strong> and the 
+                <strong>Dokan multivendor plugin</strong>. The frontend is developed using <strong>React Native</strong>. 
+                The backend communicates with the app through REST APIs provided by WooCommerce and Dokan.
+            </p>
+            <ul>
+                <li>
+                    <strong>WooCommerce REST API:</strong> Facilitates endpoints for retrieving product information, 
+                    order details, and managing customer accounts.
+                </li>
+                <li>
+                    <strong>Authentication:</strong> Uses JWT (JSON Web Token) or OAuth for secure communication.
+                </li>
+                <li>
+                    <strong>Data Fetching:</strong> React Native app sends HTTP requests to these APIs using libraries 
+                    like Axios or Fetch.
+                </li>
+                <li>
+                    <strong>Real-time Updates:</strong> Webhooks from WooCommerce trigger notifications in the app for 
+                    order updates or inventory changes.
+                </li>
+                <li>
+                    <strong>Custom Endpoints:</strong> Additional endpoints can be created for specific app needs using 
+                    WordPress plugins or custom PHP code.
+                </li>
+            </ul>
+        </div>
+        <div class="image-placeholder">
+            <img src="rest.webp" alt="Backend and API Communication" class="common-image" />
+        </div>
+    </div>
+    <div class="footer">9</div>
+</div>
+
+</body>
+</html>
